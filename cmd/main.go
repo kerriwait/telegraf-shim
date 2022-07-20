@@ -7,7 +7,7 @@ import (
 	"time"
 
 	// TODO: import your plugins
-	_ "https://github.com/kerriwait/telegraf-shim/plugins/inputs/mqtt_consumer"
+	_ "github.com/kerriwait/telegraf-shim/plugins/inputs/mqtt_consumer"
 
 	"github.com/influxdata/telegraf/plugins/common/shim"
 )
